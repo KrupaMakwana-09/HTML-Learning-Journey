@@ -1,0 +1,961 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Academic Profile</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <style>
+
+        body {
+            background-color: white;
+            font-family: Arial;
+            color: black;
+            margin: 25px;
+        }
+
+        h1 {
+            color: #174A83;
+            text-align: center;
+        }
+
+        h2 {
+            color: #174A83;
+        }
+
+        h3 {
+            color: #245B91;
+        }
+
+        hr {
+            border: 1px solid #174A83;
+        }
+
+        /* COMMON TABLE STYLE */
+
+        table {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        th {
+            background-color: #DCEBFA;
+            color: #174A83;
+            padding: 12px;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        /* 1. TABLE BORDER */
+
+        .border-table {
+            border: 2px solid #174A83;
+            border-collapse: collapse;
+        }
+
+        .border-table th,
+        .border-table td {
+            border: 1px solid #174A83;
+        }
+
+        /* 2. TABLE SIZE */
+
+        .size-table {
+            width: 80%;
+            height: 180px;
+            border: 2px solid black;
+        }
+
+        .size-table th,
+        .size-table td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        /* 3. PADDING AND SPACING */
+
+        .spacing-table {
+            border: 2px solid #174A83;
+            border-spacing: 10px;
+            border-collapse: separate;
+        }
+
+        .spacing-table th,
+        .spacing-table td {
+            border: 1px solid #174A83;
+            padding: 15px;
+        }
+
+        /* 4. ZEBRA STRIPES */
+
+        .zebra-table {
+            border-collapse: collapse;
+        }
+
+        .zebra-table th,
+        .zebra-table td {
+            border: 1px solid #777;
+            padding: 12px;
+        }
+
+        .zebra-table tr:nth-child(even) {
+            background-color: #EAF4FF;
+        }
+
+        .zebra-table tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        /* 5. VERTICAL STRIPES */
+
+        .vertical-table {
+            border-collapse: collapse;
+        }
+
+        .vertical-table th,
+        .vertical-table td {
+            border: 1px solid #777;
+            padding: 12px;
+        }
+
+        .vertical-table td:nth-child(even),
+        .vertical-table th:nth-child(even) {
+            background-color: #EAF4FF;
+        }
+
+        /* 6. HORIZONTAL DIVIDERS */
+
+        .horizontal-table {
+            border-collapse: collapse;
+        }
+
+        .horizontal-table th,
+        .horizontal-table td {
+            padding: 12px;
+            border-bottom: 2px solid #174A83;
+            text-align: left;
+        }
+
+        /* 7. HOVER EFFECT */
+
+        .hover-table {
+            border-collapse: collapse;
+        }
+
+        .hover-table th,
+        .hover-table td {
+            border: 1px solid #777;
+            padding: 12px;
+        }
+
+        .hover-table tr:hover {
+            background-color: #DCEBFA;
+        }
+
+        /* 8. COLGROUP TABLE */
+
+        .colgroup-table {
+            border-collapse: collapse;
+        }
+
+        .colgroup-table th,
+        .colgroup-table td {
+            border: 1px solid #777;
+            padding: 12px;
+            text-align: center;
+        }
+
+        /* 9. ROUNDED BORDER */
+
+        .rounded-table {
+            border: 2px solid #174A83;
+            border-radius: 10px;
+            border-spacing: 0;
+            border-collapse: separate;
+        }
+
+        .rounded-table th,
+        .rounded-table td {
+            border: 1px solid #174A83;
+            padding: 12px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>MY ACADEMIC PROFILE</h1>
+
+    <p align="center">
+        Welcome to my Student Academic Dashboard.
+    </p>
+
+    <hr>
+
+    <!-- STUDENT INTRODUCTION -->
+
+    <h2>1. About Me</h2>
+
+    <p>
+        Hello! I am a <b>Computer Engineering Student</b>.
+        I am interested in <strong>Web Development</strong>.
+        I enjoy <i>learning new technologies</i> and
+        <em>building creative projects</em>.
+    </p>
+
+    <p>
+        My goal is to become a
+        <u>successful software developer</u>.
+        I believe that <mark>consistent learning</mark>
+        is important for success.
+    </p>
+
+    <p>
+        My learning journey started in 2026.
+        <br>
+        I am improving my skills every day.
+    </p>
+
+    <p>
+        <small>This is my academic practice website.</small>
+    </p>
+
+    <p>
+        Previous learning:
+        <del>Only theoretical knowledge</del>
+        <ins>Practical knowledge and projects</ins>
+    </p>
+
+    <p>
+        Water formula: H<sub>2</sub>O
+        <br>
+        Mathematics: 5<sup>2</sup> = 25
+    </p>
+
+    <p>
+        <abbr title="HyperText Markup Language">HTML</abbr>
+        is used to create web pages.
+    </p>
+
+    <blockquote>
+        "Learning never stops. Every day is a new opportunity."
+    </blockquote>
+
+    <p>
+        My favourite subject is <cite>Computer Engineering</cite>.
+    </p>
+
+    <p>
+        <q>Practice makes progress.</q>
+    </p>
+
+    <p>
+        <bdo dir="rtl">HTML PRACTICE</bdo>
+    </p>
+
+    <hr>
+
+    <!-- BASIC TABLE -->
+
+    <h2>2. Basic HTML Table</h2>
+
+    <p>
+        This table demonstrates table, tr, th and td.
+    </p>
+
+    <table class="border-table">
+
+        <caption><b>Student Information</b></caption>
+
+        <tr>
+            <th>Roll No.</th>
+            <th>Name</th>
+            <th>Department</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Student A</td>
+            <td>Computer</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Student B</td>
+            <td>IT</td>
+        </tr>
+
+        <tr>
+            <td>103</td>
+            <td>Student C</td>
+            <td>Computer</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- TABLE SECTIONS -->
+
+    <h2>3. Table Sections</h2>
+
+    <p>
+        This table uses thead, tbody and tfoot
+        to organize table content.
+    </p>
+
+    <table class="border-table">
+
+        <caption><b>Examination Result</b></caption>
+
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+                <th>Out of</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>85</td>
+                <td>100</td>
+            </tr>
+
+            <tr>
+                <td>Java</td>
+                <td>78</td>
+                <td>100</td>
+            </tr>
+
+            <tr>
+                <td>Database</td>
+                <td>90</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>253</th>
+                <th>300</th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <hr>
+
+    <!-- TABLE BORDER -->
+
+    <h2>4. Table Border Styling</h2>
+
+    <p>
+        This table demonstrates border, border-collapse,
+        border-style and border-color.
+    </p>
+
+    <table style="
+        border:3px solid #174A83;
+        border-collapse:collapse;
+        border-style:solid;
+        border-color:#174A83;
+    ">
+
+        <tr>
+            <th style="border:2px solid #174A83;">Course</th>
+            <th style="border:2px solid #174A83;">Duration</th>
+            <th style="border:2px solid #174A83;">Status</th>
+        </tr>
+
+        <tr>
+            <td style="border:2px solid #174A83;">HTML</td>
+            <td style="border:2px solid #174A83;">1 Month</td>
+            <td style="border:2px solid #174A83;">Completed</td>
+        </tr>
+
+        <tr>
+            <td style="border:2px solid #174A83;">CSS</td>
+            <td style="border:2px solid #174A83;">2 Months</td>
+            <td style="border:2px solid #174A83;">Learning</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- TABLE SIZE -->
+
+    <h2>5. Table Width and Height</h2>
+
+    <p>
+        This table demonstrates width and height properties.
+    </p>
+
+    <table class="size-table">
+
+        <tr>
+            <th>Day</th>
+            <th>Subject</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>HTML</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Java</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- HEADER CELLS -->
+
+    <h2>6. Horizontal and Vertical Headers</h2>
+
+    <p>
+        Here, th is used as a vertical header.
+    </p>
+
+    <table class="border-table">
+
+        <tr>
+            <th>Student Name</th>
+            <td>Student A</td>
+        </tr>
+
+        <tr>
+            <th>Department</th>
+            <td>Computer Engineering</td>
+        </tr>
+
+        <tr>
+            <th>Semester</th>
+            <td>5th</td>
+        </tr>
+
+        <tr>
+            <th>College</th>
+            <td>ABC College</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- COLSPAN -->
+
+    <h2>7. Colspan Example</h2>
+
+    <p>
+        Colspan is used to merge two or more columns.
+    </p>
+
+    <table class="border-table">
+
+        <tr>
+            <th colspan="3">Student Examination Details</th>
+        </tr>
+
+        <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <td>HTML</td>
+            <td>85</td>
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <td>Java</td>
+            <td>90</td>
+            <td>A+</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- ROWSPAN -->
+
+    <h2>8. Rowspan Example</h2>
+
+    <p>
+        Rowspan is used to merge two or more rows.
+    </p>
+
+    <table class="border-table">
+
+        <tr>
+            <th>Department</th>
+            <th>Student</th>
+            <th>Subject</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Computer</td>
+            <td>Student A</td>
+            <td>HTML</td>
+        </tr>
+
+        <tr>
+            <td>Student B</td>
+            <td>Java</td>
+        </tr>
+
+        <tr>
+            <td>IT</td>
+            <td>Student C</td>
+            <td>Database</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- PADDING AND SPACING -->
+
+    <h2>9. Table Padding and Spacing</h2>
+
+    <p>
+        Padding creates space inside cells.
+        Border-spacing creates space between cells.
+    </p>
+
+    <table class="spacing-table">
+
+        <tr>
+            <th>Day</th>
+            <th>Activity</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>HTML Practice</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Project Work</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- ZEBRA STRIPES -->
+
+    <h2>10. Zebra Stripes</h2>
+
+    <p>
+        Even and odd rows have different background colors.
+    </p>
+
+    <table class="zebra-table">
+
+        <tr>
+            <th>Roll No.</th>
+            <th>Name</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Student A</td>
+            <td>85</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Student B</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Student C</td>
+            <td>78</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Student D</td>
+            <td>88</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- VERTICAL STRIPES -->
+
+    <h2>11. Vertical Stripes</h2>
+
+    <p>
+        Even columns have a different background color.
+    </p>
+
+    <table class="vertical-table">
+
+        <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>HTML</td>
+            <td>85</td>
+            <td>A</td>
+            <td>Pass</td>
+        </tr>
+
+        <tr>
+            <td>Java</td>
+            <td>90</td>
+            <td>A+</td>
+            <td>Pass</td>
+        </tr>
+
+        <tr>
+            <td>Database</td>
+            <td>78</td>
+            <td>B</td>
+            <td>Pass</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- HORIZONTAL DIVIDERS -->
+
+    <h2>12. Horizontal Dividers</h2>
+
+    <p>
+        Border-bottom creates horizontal lines
+        between table rows.
+    </p>
+
+    <table class="horizontal-table">
+
+        <tr>
+            <th>Day</th>
+            <th>Lecture</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>HTML</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Java</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>Database</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- HOVER -->
+
+    <h2>13. Table Hover Effect</h2>
+
+    <p>
+        Move your mouse over a row to see the hover effect.
+    </p>
+
+    <table class="hover-table">
+
+        <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr>
+            <td>HTML</td>
+            <td>85</td>
+        </tr>
+
+        <tr>
+            <td>Java</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>Database</td>
+            <td>78</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- COLGROUP -->
+
+    <h2>14. Colgroup and Col</h2>
+
+    <p>
+        Colgroup and col are used to apply styling
+        to specific columns.
+    </p>
+
+    <table class="colgroup-table">
+
+        <colgroup>
+            <col span="1" style="background-color:#EAF4FF;">
+            <col span="2" style="background-color:#F5F5F5;">
+        </colgroup>
+
+        <tr>
+            <th>Day</th>
+            <th>Subject</th>
+            <th>Time</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>HTML</td>
+            <td>10 AM</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Java</td>
+            <td>11 AM</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- MULTIPLE COLGROUPS -->
+
+    <h2>15. Multiple Colgroups</h2>
+
+    <table class="colgroup-table">
+
+        <colgroup>
+            <col span="1" style="background-color:#EAF4FF;">
+        </colgroup>
+
+        <colgroup>
+            <col span="1" style="background-color:#F5F5F5;">
+            <col span="1" style="background-color:#EAF4FF;">
+        </colgroup>
+
+        <tr>
+            <th>Student</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr>
+            <td>Student A</td>
+            <td>HTML</td>
+            <td>85</td>
+        </tr>
+
+        <tr>
+            <td>Student B</td>
+            <td>Java</td>
+            <td>90</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- EMPTY COLGROUP -->
+
+    <h2>16. Empty Colgroup Example</h2>
+
+    <table class="border-table">
+
+        <colgroup>
+            <col span="1" style="background-color:#EAF4FF;">
+        </colgroup>
+
+        <colgroup>
+        </colgroup>
+
+        <tr>
+            <th>Day</th>
+            <th>Subject</th>
+            <th>Time</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>HTML</td>
+            <td>10 AM</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Java</td>
+            <td>11 AM</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- HIDE COLUMN -->
+
+    <h2>17. Hide Table Column</h2>
+
+    <p>
+        The middle column is hidden using
+        visibility: collapse.
+    </p>
+
+    <table class="border-table">
+
+        <colgroup>
+            <col>
+            <col style="visibility:collapse;">
+            <col>
+        </colgroup>
+
+        <tr>
+            <th>Name</th>
+            <th>Hidden Information</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr>
+            <td>Student A</td>
+            <td>Information 1</td>
+            <td>85</td>
+        </tr>
+
+        <tr>
+            <td>Student B</td>
+            <td>Information 2</td>
+            <td>90</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- BORDER RADIUS -->
+
+    <h2>18. Border Radius and RGBA</h2>
+
+    <table class="rounded-table">
+
+        <tr>
+            <th>Skill</th>
+            <th>Level</th>
+        </tr>
+
+        <tr>
+            <td>HTML</td>
+            <td style="background-color:rgba(80,150,220,0.2);">
+                Beginner
+            </td>
+        </tr>
+
+        <tr>
+            <td>CSS</td>
+            <td style="background-color:rgba(80,150,220,0.2);">
+                Learning
+            </td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- LISTS -->
+
+    <h2>19. My Skills</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>Java</li>
+        <li>Programming</li>
+        <li>Problem Solving</li>
+    </ul>
+
+    <h3>My Learning Goals</h3>
+
+    <ol>
+        <li>Complete HTML</li>
+        <li>Learn CSS</li>
+        <li>Build Projects</li>
+        <li>Learn JavaScript</li>
+    </ol>
+
+    <hr>
+
+    <!-- LINKS -->
+
+    <h2>20. Useful Links</h2>
+
+    <p>
+        <a href="https://www.google.com" target="_blank">
+            Visit Google
+        </a>
+    </p>
+
+    <p>
+        <a href="https://www.w3schools.com/html/" target="_blank">
+            HTML Learning Reference
+        </a>
+    </p>
+
+    <hr>
+
+    <h2>21. My Hobbies</h2>
+
+    <p>
+        My hobbies include drawing and classical dance.
+    </p>
+
+    <hr>
+
+    <h2>22. Conclusion</h2>
+
+    <p>
+        This project demonstrates my HTML learning journey.
+        I have practiced different table structures,
+        table styling, formatting tags, lists and links.
+    </p>
+
+    <p align="center">
+        <b>THANK YOU FOR VISITING MY ACADEMIC PROFILE!</b>
+    </p>
+
+    <hr>
+
+    <address>
+        Created as an HTML learning practice project.
+    </address>
+
+</body>
+</html>
